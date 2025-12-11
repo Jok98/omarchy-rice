@@ -15,29 +15,18 @@
     "battery"
   ],
   "hyprland/workspaces": {
-    "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "default": "",
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
-      "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
-      "active": "󱓻"
+      "default": "\u2501",
+      "active": "\u25CF",
+      "urgent": "!"
     },
-    "persistent-workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
-    }
+    "all-outputs": false,
+    "active-only": false,
+    "move-to-monitor": false,
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1"
   },
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
