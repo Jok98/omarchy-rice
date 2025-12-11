@@ -38,7 +38,7 @@ window#waybar {
   padding: 3px 9px;
   margin-top: 3px;
   margin-bottom: 3px;
-  box-shadow: 0 3px 10px @island-shadow;
+  box-shadow: 0 0px 0px @island-shadow;
 }
 
 .modules-left > *,
