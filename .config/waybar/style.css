@@ -95,12 +95,21 @@ tooltip {
 }
 
 #workspaces button {
-  all: initial;
+  border: none;
+  outline: none;
+  box-shadow: none;
   padding: 0 6px;
   margin: 0 2px;
   min-width: 9px;
   color: @foreground;
   background: transparent;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+#workspaces button:hover {
+  background: alpha(@foreground, 0.06);
+  border-radius: 8px;
 }
 
 #workspaces button.empty {
