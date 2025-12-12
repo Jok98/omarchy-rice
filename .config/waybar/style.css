@@ -54,7 +54,6 @@ window#waybar {
 }
 
 #battery,
-#pulseaudio,
 #custom-omarchy,
 #custom-screenrecording-indicator,
 #custom-update {
@@ -62,16 +61,18 @@ window#waybar {
   margin: 0 8px;
 }
 
-#tray {
-  margin-right: 16px;
-}
 
 #bluetooth {
-  margin-right: 16px;
+  margin-right: 18px;
 }
 
 #network {
-  margin-right: 16px;
+  margin-right: 18px;
+}
+
+#pulseaudio{
+  margin-right: 8px;
+  min-width: 12px;
 }
 
 #custom-expand-icon {
