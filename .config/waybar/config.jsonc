@@ -31,7 +31,7 @@
     "format": "<span font='omarchy'>\udb82\udcc7</span>",
     "on-click": "omarchy-menu",
     "on-click-right": "xdg-terminal-exec",
-    "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
+    "tooltip-format": "Omarchy Menu"
   },
   "custom/update": {
     "format": "",
@@ -43,9 +43,10 @@
   },
 
   "clock": {
-    "format": "{:L%A %H:%M}",
-    "format-alt": "{:L%d %B W%V %Y}",
-    "tooltip": false,
+    "format": "{:%d-%m %H:%M}",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%A %d %B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+    "on-click": "gsimplecal",
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
   "network": {
