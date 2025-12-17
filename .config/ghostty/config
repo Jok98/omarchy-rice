@@ -36,3 +36,6 @@ copy-on-select = clipboard
 
 link-url = true
 link-previews = true
+
+working-directory = ~
+
