@@ -35,7 +35,7 @@ map("n", "P", "P", opts)
 
 -- undo/redo
 map("n", "u", "u", opts)
-map("n", "r", "<C-r>", opts)
+map("n", "y", "<C-r>", opts)
 
 -- viewport
 vim.keymap.set("n", "v", "<nop>", { noremap = true, silent = true })
