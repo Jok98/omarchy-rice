@@ -308,7 +308,7 @@ echo "🟢 Installed components:"
 for item in "${installed_components[@]:-}"; do echo "   - $item"; done
 printf "\n🟡 Already present components:\n"
 for item in "${skipped_components[@]:-}"; do echo "   - $item"; done
-if [ ${#failed_components[@]:-0} -ne 0 ]; then
+if (( ${#failed_components[@]} != 0 )); then
   printf "\n🔴 Failed components:\n"
   for item in "${failed_components[@]}"; do echo "   - $item"; done
 else
