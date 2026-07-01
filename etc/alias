@@ -20,3 +20,5 @@ alias pod='kubectl get pods'
 cd() {
 builtin cd "$@" && ll
 }
+
+..() { cd ..; }
